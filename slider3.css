@@ -1,0 +1,288 @@
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");
+}
+@font-face {
+  font-family: "AvertaStd-Regular";
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+      format("svg");
+}
+
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  user-select: none;
+ }
+   body{
+    background: #FCFCFC;   }
+ .resultbox2{
+
+  font-size: 1vw;
+  display: flex;
+ 
+ 
+  
+  }
+
+  .resultbox{
+    overflow:hidden;
+  margin-top:8em ;
+width: 76.2vw;
+height: 121vh;
+margin-left:12.3em;
+font-size: 1vw;
+
+  }
+ .resultbox1{
+
+background:   #eafafa57;
+
+}
+
+.ourresult-lable>h3{
+font-family: AvertaStd-Semibold;
+font-size: 4vh;
+letter-spacing: 0.03em;
+
+color: #000000;
+margin-bottom: 2em;
+}
+.result1{
+    /* background: red; */
+    width:30vw ;
+    margin-top:3.5em ;
+    margin-left: 13vh;
+
+}
+
+.studentpicsvg1{
+    z-index: 1;
+    position:absolute;
+margin-top: -6vh;
+
+}
+.O2studentpicsvg1{
+  z-index: 1;
+  position:absolute;
+}
+.stsvg{
+  width:10vw ;
+  height:17vh;
+  margin: 0 0 0 0;
+}
+.yoyo{
+    padding-bottom: -5em;
+  
+}
+.stdcom1{
+  z-index: -1;
+    display: flex;
+    font-size: 1vw;
+    /* background: #d16969; */
+border-radius: 1vh;
+width:37vw ;                                                 /* hgjjjjjjjjjjjjjjjjjg*/
+height:fit-content;
+box-shadow:0 0 1em 0 rgba(10, 10, 10, 0.726);
+}
+.percentagebox{
+  background: #D3F1FF;
+  border-radius: 0.6em 0 0 0.6em;
+  font-family: AvertaStd-Semibold;
+  width: 25vw;
+  padding: 0 0 0 0;
+text-align: center;
+color: #3C3C3C;
+background-color: #D3F1FF;
+padding: 0 1.5em;
+
+}
+
+.bhuno1{
+height: 20vh;
+margin-top: -6vh;
+}
+.leftpercentagebox{
+  border-radius: 0 0.6em 0.6em 0;
+  background: #FFB7B1;
+  font-family: AvertaStd-Semibold;
+  width: 25vw;
+  text-align: center;
+  padding: 0 1.5em;
+color: #3C3C3C;
+}
+.rightpercentagebox{
+  background: #FFDF83;
+  padding: 0 1.5em;
+
+}
+.percentage1{
+  font-family: AvertaStd-Semibold;
+  font-size: 2.8em;
+  line-height: 2em;
+
+  width: 10vw;
+  margin-left: 0.3em;
+  height: 9vh;
+  text-align: center;
+  color: #3C3C3C;
+}
+.percentage2{
+  font-family: AvertaStd-Semibold;
+  font-size: 1.5em;
+  line-height: 1.9em;
+  text-align: center;
+  color: #3C3C3C;
+}
+
+.studentdetailbox{
+  background: rgb(247, 247, 247);
+  border-top-right-radius: 1vh;
+  border-bottom-right-radius: 1vh ;
+  padding:0.6em 1em 0.6em 1em;
+}
+.leftstudentdetailbox{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0 ;
+  border-top-left-radius: 1vh;
+  border-bottom-left-radius: 1vh ;
+}
+
+
+.sdtop{
+  font-family: AvertaStd-Semibold;
+font-size: 0.9em;
+line-height: 1.1em;
+padding:0 0  0.8em 0;
+color: rgba(51, 51, 51, 0.8);
+}
+.delhiindia{
+  float: right;
+  
+}
+.stmiddium1{
+  font-family: AvertaStd-Semibold;
+font-size: 1.3em;
+line-height: 4vh;
+color: #333333;
+}
+.stmiddium2{
+font-family: AvertaStd-Regular;
+font-size: 0.8em;
+line-height: 1.8em;
+color: rgba(51, 51, 51, 0.8);
+margin: 0.6em 0 0 0;
+}
+.stbottom{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.89em;
+  padding: 0.5em 0 0 0;
+  line-height: 2em;
+  color: #1E67E3;
+}
+.leftstbottom{
+  float: right;
+}
+
+
+.result2{
+  float: right;
+  margin-left: 35em;
+  margin-right: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-right: 20em;
+}
+
+.stsvg2{
+width: 10vw;
+  height: 17vh;
+  position: absolute;  
+margin-left:46.5vh ;
+margin-top: -8vh;
+}
+
+.result3{
+margin-left: 13vh;
+}
+
+.stsvg3{
+width: 10vw;
+  height: 17vh;
+  position:absolute;
+margin-top:21vh;
+}
+.rglf{
+  
+  margin: 0 0 10em 50em;
+ position: relative;
+ width: fit-content;
+ top:-18vh
+ 
+}
+.resultrighticon1{
+
+  color:#5C5C5C;
+  font-size:3vw;
+  cursor: pointer;
+  }
+  .resultlefticon1{
+
+    color:#5C5C5C;
+    font-size:3vw;
+    cursor: pointer;
+    } 
+    .resultrighticon{
+      background: #ffffff;
+      box-shadow: 0px 0px 35px rgba(13, 25, 163, 0.23);
+      border-radius:50em;
+      border:none;
+      height:4.2vw;
+      width:4.2vw;
+      }
+      .resultrighticon:hover{
+      transform: scale(1.1);
+      }
+      .resultlefticon{
+
+        background: #ffffff;
+        box-shadow: 0 0 2em 0 rgba(13, 25, 163, 0.23);
+        border-radius:50em;
+        margin-left: 2em;
+        border:none;
+        height:4.2vw;
+        width:4.2vw;
+        align-items:center;
+
+        }
+        .resultlefticon:hover{
+          transform: scale(1.1);
+
+        }
+
+.resultbox2{
+  transition:transform 0.4s;
+}

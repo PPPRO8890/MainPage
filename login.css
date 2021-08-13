@@ -1,0 +1,444 @@
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");
+}
+@font-face {
+  font-family: "AvertaStd-Regular";
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+      format("svg");
+}
+  
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+  }
+  .Mainlogin1{
+    position: relative;
+    margin-left:7.83em;
+    font-size: 1vw;
+    margin-top:0.5em
+  }
+
+
+
+  .Mainlogin3{
+    /* z-index: -1; */
+    width:22.6vw;
+    height:42.5vh;
+font-size: 1vw;
+    background: #FFFFFF;
+box-shadow: 0.2em 0.2em 0.8em rgba(7, 89, 228, 0.25);
+/* ,,,,,,,,,,,,,,,,,login is here,,,,,,,,,,,,,,,, */
+border-top-right-radius:1em ;
+border-top-left-radius:none ;
+border-bottom-left-radius:2vh ;
+border-bottom-right-radius:2vh ;
+margin: 0 0 0 0.5em;
+  }
+ 
+
+  .upperButton{
+    display: flex;
+    overflow-y: hidden;
+   border-top-left-radius: 1em;
+   width: 25.6em;
+   
+
+   
+  }
+
+  /* ,,,,,,,,,,,,,,,,login here ,,,,,,,,,,,,,,*/
+  .LoginBackgroundactive{
+    background: none;
+    box-shadow: none;
+    border-top-left-radius:none ;
+    border-top-right-radius: none; 
+    position: relative;
+   top:0.5em;
+     width: 11.3vw;
+     height: 11vh;
+     margin: 0 0 0 0.5em; 
+  
+  }
+  .LoginBackgroundactive:hover{
+    cursor: pointer;
+  }
+  .upperLoginbuttonactive{
+    background: #FFFFFF;
+    color: #000000;
+    font-family: AvertaStd-Semibold;
+    font-size: 1.6em;
+    padding: 0.3em 0 0 0;
+    width:5em;
+    height: 1.7em;
+    text-align: center;
+    line-height: 1em;
+    letter-spacing: 0.02em;
+    margin: 0.9em 0 1em 1.3em;
+  
+box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+
+  }
+    /* ,,,,,,,,,,,,,,,,login here ,,,,,,,,,,,,,,*/
+  .LoginBackground{
+    /* z-index: 1; */
+   position: relative;
+   top:0.5em;
+   width: 11.3vw;
+   height: 11vh;
+
+    background: #FFFFFF;
+    margin: 0 0 0 0.5em;  
+box-shadow: 0px -1px 5px 2px rgba(7, 89, 228, 0.1);
+border-top-left-radius:2vh ;
+border-top-right-radius: 2vh;
+  }
+  .upperLoginbutton{
+  
+    font-family: AvertaStd-Semibold;
+    font-size: 1.6em;
+    padding: 0.3em 0 0 0;
+    width:5em;
+    height: 1.7em;
+    text-align: center;
+    line-height: 1em;
+    letter-spacing: 0.02em;
+    margin: 0.9em 0 1em 1.3em;
+    background: #0759E4;
+box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.25);
+border-radius: 1vh;
+color: #FFFFFF;
+  }
+
+  .upperLoginbutton:hover{
+    cursor: pointer;
+  }
+
+  .upperRegisterbutton{
+    font-family: AvertaStd-Semibold;
+    font-size: 1.5em;
+    padding: 0.3em 0 0 0;
+    width:5em;
+     height: 1.8em;
+     text-align: center;
+    line-height: 1em;
+     letter-spacing: 0.02em;
+   margin: 0.9em  0em 0em 1em; 
+    background: #0759E4;
+box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.25);
+border-radius: 1vh;
+color: #FFFFFF;
+  }
+  .upperRegisterbutton:hover{
+    cursor: pointer;
+  }
+  .RegisterBackground{
+    z-index: 1;
+    position: relative;
+    top:0.5em;
+     width: 11.3vw;
+     height: 11vh;
+     background: #FFFFFF;
+     margin: 0 0.5em 0 0; 
+     
+ box-shadow: 0px -1px 5px 2px rgba(7, 89, 228, 0.1);
+ border-top-left-radius:2vh ;
+ border-top-right-radius: 2vh;
+ 
+
+  }
+
+
+
+  /*------------------------- logic -------------------------*/
+  .RegisterBackgroundactive{
+    background: none;
+ box-shadow: none;
+ border-top-left-radius:none ;
+ border-top-right-radius: none; 
+ top:0.5em;
+     width: 11.3vw;
+     height: 11vh;
+      }
+  .upperRegisterbuttonactive{
+    background: #FFFFFF;
+color: #000000;
+
+  }
+ 
+   /*------------------------- logic -------------------------*/
+
+  .letmecheck{
+    font-size: 1vw;
+    
+  }
+
+  .logincontent{  
+    width:23.5em;
+    padding: 0 0 0 1.1em;
+    display: flex;
+  }
+ .logindata1{
+  width:20.6vw;
+height: 6.2vh;
+padding: 0.3vh 0 0 9vh;
+font-size:2.5vh;
+margin: 3.5vh 0 0 0;
+background: rgba(7, 89, 228, 0.05);
+border-radius: 6px;
+border: none;
+outline: none;
+  }
+  .logindata1::placeholder{
+    font-family: AvertaStd-Regular;
+font-size: 2.1vh;
+
+letter-spacing: 0.02em;
+
+color: rgba(0, 0, 0, 0.6);
+  }
+.tickbox{
+  width:2vh;
+  height: 2vh;
+  border-radius: 0;
+}
+  .checkboxline{
+    margin: 1.2em 0 0 0;
+    font-family: AvertaStd-Regular;
+font-size: 1em;
+line-height: 1.1em;
+color: rgba(0, 0, 0, 0.7);
+  }
+  .forgetpassword{
+margin: 0 0 0 4.1em;
+color: #0759E4;
+  }
+  .EmailIcon{
+    position: absolute;
+    top:5.3em;
+    left:1.7em;
+    font-size: 1.5em;
+  }
+ .PasswordIcon{
+  position: absolute;
+  top: 7em;
+  left:1.2em;
+  font-size: 1.8em;
+ }
+ .passeyes{
+  position: absolute;
+  top: 7em;
+  left: 10.8em;
+  font-size: 1.8em;
+ }
+ .passeyes1{
+   display: none;
+  position: absolute;
+  top: 7em;
+  left: 10.8em;
+  font-size: 1.8em;
+ }
+ .rpasseyes{
+  position: absolute;
+  top: 8.5em;
+  left: 9.8em;
+  font-size: 2em;
+ }
+ .rpasseyes1{
+  display: none;
+  position: absolute;
+  top: 8.5em;
+  left:9.8em;
+  font-size: 2em;
+ }
+ .Ppasseyes{
+  position: absolute;
+  top: 8.5em;
+  left: 9.8em;
+  font-size: 2em; 
+ }
+ .Ppasseyes2{
+   display: none;
+  position: absolute;
+  top: 8.5em;
+  left: 9.8em;
+  font-size: 2em; 
+ }
+ .ContinueLearning{
+  background: #0759E4;
+  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  font-family: AvertaStd-Semibold;
+font-size: 1.3em;
+line-height: 1em;
+letter-spacing: 0.02em;
+width:15.8em;
+border: none;
+height: 2.4em;
+color: #FFFFFF;
+margin: 0.8em 0 0 0;
+ }
+ 
+   .orbox{
+     display: flex;
+    margin:0 0 0 1.8em;
+   }
+   .orword{
+    font-family: AvertaStd-Semibold;
+    font-size: 1.5em;
+    /* line-height: 2em; */
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    margin: 0 1em 0 1em;
+    color: rgba(0, 0, 0, 0.6);
+   }
+   .orline1{
+    border-bottom:1px solid rgba(0, 0, 0, 0.6);
+    width: 6.5em;
+    height:1em;
+   
+    margin :0.3em 0 0 -0.5em;
+    
+   }
+   .orline2{
+    border-bottom:1px solid rgba(0, 0, 0, 0.6);
+    width: 6.5em;
+    height:1em;
+  margin: 0.3em 0 0 0;
+ 
+   }
+   .loginicon{
+    margin:0 0 0 0;
+    padding:0 0 0 0
+     }
+    .googleicon{
+      font-size: 1.9em;
+      margin:0 0 0 0.6em;
+    }
+     .facebookicon{
+    
+       font-size: 2.02em;
+      margin: 0 0 0 2.85em;}
+     .phoneicon{
+      font-size: 1.8em;
+       margin: 0 0 0 3.2em;}
+
+   /* ---------------------------------------------------------------register-css--------------------------------------------------------- */
+   
+  .registercontent{
+    width:23.5em;
+    padding: 0 0 0 1.1em;
+    display: flex;
+  }
+
+  .NameIconR{
+   
+      position: absolute;
+      top:3.7em;
+      left: 1.1em;
+      font-size: 2em;
+  
+  }
+  .EmailIconR{
+    position: absolute;
+    top: 8.5em;
+    left: 1.6em;
+    font-size: 1.5em;
+  }
+ .PasswordIconR{
+  position: absolute;
+  top: 9.63em;
+  left: 1.2em;
+  font-size: 1.8em;
+ }
+
+
+   /* ---------------------------------------------------------------Phone-register-css--------------------------------------------------------- */
+ .phonecontent{
+  width:23.5em;
+  padding: 0 0 0 1.1em;
+  display: flex;
+
+ }
+ .flag{
+
+margin-top: 2vh;
+margin-left: 0.5em;
+
+ }
+ .phoneline{
+   width: 6vh;
+   border-right:0.1em solid black;
+  height: 6.2vh;
+   position: absolute;
+   top: 24.2vh;
+   left: 1.2em;
+   font-size: 1.5em;
+  
+ }
+
+ /* phonelogin-css */
+ .phonelogincontent{
+  width:23.5em;
+  padding: 0 0 0 1.1em;
+  display: flex;
+ }
+ .loginphoneline{
+  
+  width: 6vh;
+  height: 6.25vh;
+  border-right:0.01em solid black;
+  font-size: 2em;
+  position: absolute;
+    top: 14.5vh;
+    left: 1.2em;
+    font-size: 2em;
+ }
+ .flag1{
+  
+margin-top: 1vh;
+
+ }
+ .countingcircle{
+  position: absolute;
+  top: 26vh;
+  width: 3vh;
+  height: 3vh;
+  left: 5.7vh;
+  border:0.1vh solid black;
+  border-radius:2vh;
+ }
+ .circleline{
+   border-right:0.1em solid black ;
+   width: 1vh;
+   height: 6.2vh;
+   position: absolute;
+   top: 24.2vh;
+   left: 10.2vh;
+ }
+ input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
